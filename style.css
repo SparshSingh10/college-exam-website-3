@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins","sans-serif";
+}
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 7%;
+    top:0; left: 0; right: 0;
+}
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: none;
+}
+.header .logo{
+    display: flex;
+    color: white;
+    position: relative;
+    right: 2px;
+    
+}
+.header h2{
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+    left: 9px;
+    top: 5px;
+    
+}
+.logo img{
+    height: 32px;
+    fill: #29d9d5;
+}
+.btn:hover{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;;
+    color: #000000;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+}
+.header .navbar a{
+    margin: 0 .7rem;
+   font-size: 1.2rem;
+   color: white;
+}
+/* section */
+
+.blog{
+    padding: 10px 40px;
+    background:url(./images/backgroung.png);
+    height: 800px;
+    background-color: rgb(200, 70, 180);
+
+}
+.blog .head{
+    padding: 10px;
+margin: 10px;
+border-radius: 15px;
+}
+.blog .head{
+padding: 10px;
+margin: 10px;
+border-radius: 15px;
+position: relative;
+top: 53px;
+right: -93px;
+}
+.blog .head h3{
+color:white;
+font-size: 30px;
+}
+.blog .head p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.parent{
+    display: flex;
+}
+.cart-container{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.cart img{
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    position: relative;
+    top: 53px;
+    right: -93px
+}
+.cart img:hover{
+    opacity: 0.6;
+}
+.start{
+    padding: 30px 200px;
+    text-align: center;
+    background:url(./images/img4.jpeg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+.start p{
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.p1{
+    font-size: 1.5rem;
+    color: #446fd2;
+}
+.p2{
+    font-size: 2.5rem;
+    color: white;    
+}
+.p3{
+    font-size: 1.0rem;
+    color: white;
+}
+/* button */
+.btn{
+    padding: 10px 20px;
+    color: black;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;;
+    color: #000000;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+}
+/* playlist */
+.playlist{
+    margin: 80px;
+    display: flex;
+}
+.middle h1{
+    margin-left: 831px;
+    margin-top: 29px;
+    font-size: 30px;
+    font-family:"Poppins","sans-serif";
+}
+.item1 img,h1,p{
+    margin: 10px;
+}
+.item1 h3,p{
+    width: 400px;
+}
+.item1 h3{
+    position: relative;
+    left: 10px;
+}
+.item1 p{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+/* free */
+
+.freeblock{
+    margin: 30px;
+    text-align: center;
+    height: 500px;
+}
+
+.free{
+    padding: 10px 40px;
+    height: 500px;
+    background-color: rgb(200, 70, 180);
+}
+
+.freeblock h1{
+    color: white;
+    font-size: 100px;
+    font-family:"Poppins","sans-serif";
+}
+
+/* ready */
+.readyblock{
+    margin: 30px;
+    text-align: center;
+    height: 500px;
+}
+.readyblock h1{
+    color: white;
+    font-size: 150px;
+    font-family:"Poppins","sans-serif";
+}
+.ready{
+    padding: 10px 40px;
+    background:url(./images/backgroung.png);
+    height: 500px;
+    background-color: rgb(200, 70, 180);
+}
+/* footer */
+.foot{
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+    padding: 80px;
+}
+.footer img{
+   height: 50px;
+}
+.footer p{
+   color: white;
+   font-size: 40px;
+}
+.logo1{
+display: flex;
+}
+.footer2{
+    display: flex;
+}
+.footdown h3,h4{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.footdown h4{
+    color: rgb(209, 205, 205);
+    font-size: 20px;
+    text-align: center;
+}
+.footdown{
+    margin: 150px;
+}
+
+
+.drop{
+    padding: 130px;
+    height: 300px;
+    background-color: white;
+}
+.drop1 h1{
+    font-size: 50px;
+    padding: 15px;
+}
